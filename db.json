@@ -1,0 +1,38 @@
+{
+  "clientesListado": [
+    {
+      "nombre": "Agustin",
+      "apellido": "Trezza",
+      "email": "agustin.trezza@gmail.com",
+      "id": 1
+    },
+    {
+      "nombre": "Fernando",
+      "apellido": "Trezza",
+      "email": "fct445@gmail.com",
+      "id": 2
+    },
+    {
+      "nombre": "Fernanda",
+      "apellido": "Trezza",
+      "email": "fernanda.trezza@gmail.com",
+      "id": 3
+    },
+    {
+      "nombre": "Matias",
+      "apellido": "Diez",
+      "email": "Mati@mati.com",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>Crear Cliente</h1>
+<div mat-dialog-content>
+    <form [formGroup]="clienteForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Nombre</mat-label>
+            <input formControlName="nombre" matInput placeholder="Nombre del cliente">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Apellido</mat-label>
+            <input formControlName="apellido" matInput placeholder= "Apellido del cliente">
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input formControlName="email" type="email" matInput placeholder="Email del cliente">
+          </mat-form-field>
+    </form>
+</div>
+
+<div mat-dialog-action [align]="'end'">
+<button mat-raised-button color="warn" mat-dialog-close>Cancelar</button>
+<button (click)="crearCliente()" style="margin-left : 8px" mat-raised-button color="primary">{{actionBtn}}</button>
+
+</div>
